@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #0b0b0b;
+  color: #f2f2f2;
+  scroll-behavior: smooth;
+}
+
+header {
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 4rem;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #00bcd4;
+}
+
+.logo span {
+  color: #ff0057;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #f4f4f4;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #00bcd4;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0e0e0e, #151515);
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.hero-text h1 {
+  font-size: 2.8rem;
+  line-height: 1.4;
+}
+
+.hero-text span {
+  color: #00bcd4;
+}
+
+.hero-text p {
+  margin: 1.2rem 0;
+  color: #ccc;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 1.5rem;
+  background: #00bcd4;
+  color: white;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #0095a8;
+}
+
+section {
+  padding: 6rem 2rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #00bcd4;
+  margin-bottom: 2rem;
+}
+
+.about p {
+  max-width: 750px;
+  margin: auto;
+  color: #ccc;
+  line-height: 1.8;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.skill-card {
+  background: #1a1a1a;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.project-card {
+  background: #1a1a1a;
+  padding: 2rem;
+  border-radius: 15px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 188, 212, 0.4);
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+footer {
+  background: #111;
+  padding: 1rem;
+  text-align: center;
+  color: #aaa;
+  font-size: 0.9rem;
+}
