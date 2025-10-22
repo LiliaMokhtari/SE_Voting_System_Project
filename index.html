@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Team Portfolio</title>
+<style>
+  :root {
+    --bg-gradient: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    --card-bg: #ffffff;
+    --text-main: #1e293b;
+    --text-subtle: #64748b;
+    --primary: #0d9488;
+    --highlight: #14b8a6;
+    --shadow: 0 10px 35px rgba(15,23,42,0.1);
+    --radius: 16px;
+    font-family: "Inter", "Poppins", sans-serif;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg-gradient);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+  }
+
+  .container {
+    max-width: 1100px;
+    width: 100%;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--text-main);
+    margin-bottom: 12px;
+  }
+
+  p.description {
+    text-align: center;
+    font-size: 1.1rem;
+    color: var(--text-subtle);
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+  }
+
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+  }
+
+  .card {
+    background: var(--card-bg);
+    border-radius: var(--radius);
+    padding: 30px 20px;
+    box-shadow: var(--shadow);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 16px 45px rgba(15,23,42,0.15);
+  }
+
+  .avatar {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 18px;
+    box-shadow: 0 6px 18px rgba(15,23,42,0.08);
+    transition: transform 0.3s ease;
+  }
+
+  .card:hover .avatar {
+    transform: scale(1.1);
+  }
+
+  h2 {
+    font-size: 1.2rem;
+    margin: 10px 0 6px 0;
+    color: var(--text-main);
+  }
+
+  p.role {
+    font-size: 0.95rem;
+    color: var(--text-subtle);
+    margin-bottom: 14px;
+  }
+
+  a.profile-link {
+    text-decoration: none;
+    color: var(--primary);
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+
+  a.profile-link:hover {
+    color: var(--highlight);
+  }
+
+  @media(max-width: 500px){
+    h1 { font-size: 2rem; }
+    p.description { font-size: 1rem; }
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>Our Team</h1>
+    <p class="description">
+      We are a group of dedicated computer science students collaborating to create professional web solutions. 
+      Each team member has a unique skill set, from coding and algorithms to design and user experience.
+    </p>
+
+    <div class="team-grid">
+      <!-- Kali Meriem -->
+      <div class="card">
+        <div class="avatar">K</div>
+        <h2>Kali Meriem</h2>
+        <p class="role"></p>
+        <a class="profile-link" href="">View Profile</a>
+      </div>
+
+      <!-- Sarra Hadbi-->
+      <div class="card">
+        <div class="avatar">H</div>
+        <h2> Hadbi Sarra</h2>
+        <p class="role"></p>
+        <a class="profile-link" href="">View Profile</a>
+      </div>
+
+      <!-- Si Salem Anis -->
+      <div class="card">
+        <div class="avatar">S</div>
+        <h2>Si Salem Anis </h2>
+        <p class="role"></p>
+        <a class="profile-link" href="">View Profile</a>
+      </div>
+
+      <!-- Dellali Mourad -->
+      <div class="card">
+        <div class="avatar">D</div>
+        <h2>Dellali Mourad</h2>
+        <p class="role"></p>
+        <a class="profile-link" href="">View Profile</a>
+      </div>
+        <!--Mokhtari Lilia --> 
+      <div class="card">
+        <div class="avatar">M</div>
+        <h2>Mokhtari Lylia</h2>
+        <p class="role"></p>
+        <a class="profile-link" href="">View Profile</a>
+      </div>
+
+   
+    </div>
+  </div>
+</body>
+</html>
