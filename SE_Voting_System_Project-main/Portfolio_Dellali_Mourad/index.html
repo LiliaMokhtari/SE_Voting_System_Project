@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mourad Dellali — Web Developer & Digital Innovator</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Portfolio of Mourad Dellali, Web Developer & Digital Innovator from Algeria">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="brand">Mourad Dellali</a>
+      <nav class="nav" id="nav">
+        <button class="nav-toggle" id="navToggle" aria-expanded="false">Menu</button>
+        <ul class="nav-list" id="navList">
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Hi, I'm <span class="accent">Mourad Dellali</span></h1>
+          <p class="lead">Web Developer & Digital Innovator from Algeria building modern, efficient, and user-friendly digital solutions.</p>
+          <p class="cta-row">
+            <a class="btn primary" href="#projects">See my work</a>
+            <a class="btn outline" href="#contact">Contact me</a>
+          </p>
+        </div>
+        <div class="hero-illustration">
+          <img src="assets/illustration.svg" alt="Illustration of web design" />
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="container">
+        <h2>Selected Projects</h2>
+        <p class="muted">A selection of recent work in UI, front-end development, and design.</p>
+        <div class="grid project-grid" id="projectGrid">
+          <!-- Project cards will be populated here -->
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <h3 class="skill-category">Frontend</h3>
+        <div class="skills-list">
+          <div class="skill">HTML</div>
+          <div class="skill">CSS</div>
+          <div class="skill">JavaScript</div>
+          <div class="skill">React</div>
+        </div>
+        
+        <h3 class="skill-category">Backend</h3>
+        <div class="skills-list">
+          <div class="skill">Node.js</div>
+          <div class="skill">Express</div>
+          <div class="skill">PHP</div>
+          <div class="skill">Laravel</div>
+        </div>
+        
+        <h3 class="skill-category">Database</h3>
+        <div class="skills-list">
+          <div class="skill">MySQL</div>
+          <div class="skill">MongoDB</div>
+        </div>
+        
+        <h3 class="skill-category">Tools</h3>
+        <div class="skills-list">
+          <div class="skill">Git</div>
+          <div class="skill">VS Code</div>
+          <div class="skill">Figma</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container about-inner">
+        <div class="about-text">
+          <h2>About Me</h2>
+          <p>I'm a passionate web developer from Algeria focused on building modern, efficient, and user-friendly digital solutions. My goal is to bring impactful ideas to life through clean code and intuitive design. I enjoy solving complex problems and turning them into simple, elegant interfaces.</p>
+          <ul>
+            <li>Languages: Arabic (native), French (fluent), English (advanced)</li>
+            <li>Location: Algeria</li>
+            <li>Interests: Entrepreneurship, tech startups, UI/UX, productivity systems</li>
+          </ul>
+        </div>
+        <div class="about-photo">
+          <img src="assets/avatar.svg" alt="Your portrait" />
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p class="muted">Interested in working together? Send a message or email me directly at <a href="mailto:mourad.dellali@email.com">mourad.dellali@email.com</a>.</p>
+        <form id="contactForm" class="contact-form">
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" required>
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" required>
+          </label>
+          <label>
+            <span>Message</span>
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+          <button class="btn primary" type="submit">Send message</button>
+          <p id="formMessage" class="muted" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Mourad Dellali. Built with care.</p>
+      <div class="social">
+        <a href="https://github.com/mouraddellali" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://mouraddellali.dev" target="_blank" rel="noopener">Portfolio</a>
+        <a href="https://linkedin.com/in/mouraddellali" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
