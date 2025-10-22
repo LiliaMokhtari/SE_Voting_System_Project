@@ -8,13 +8,11 @@ Each team member created a personal page, which will be integrated into a centra
 
 ## 👥 Contributing Team Members
 
-| Name | Role | Email |
+| Name | Role | Email | 
 |------|------|--------|
 | **Lilia Mokhtari** | Front-End Developer | lilia.mokhtari@enisa.edu.dz |
 | [Add other team members here] |  |  |
 
-GitHub: [LiliaMokhtari](https://github.com/LiliaMokhtari)  
-LinkedIn: [Lilia Mokhtari](https://www.linkedin.com/in/lilia-mokhtari)
 
 ---
 
@@ -24,7 +22,7 @@ LinkedIn: [Lilia Mokhtari](https://www.linkedin.com/in/lilia-mokhtari)
 
 ---
 
-## 🧠 Team Retrospective Analysis (≈350 words)
+## 🧠 Team Retrospective Analysis 
 
 During the collaborative development of our team portfolio, the most significant technical challenge was maintaining **synchronization across multiple branches** while ensuring that everyone’s work could be merged smoothly into the main repository. Because each member developed their section independently, branch histories diverged quickly. This caused issues such as *“refusing to merge unrelated histories”* and overlapping updates on shared files like the main navigation and index structure. We addressed this by adopting a consistent branching strategy and ensuring frequent communication about updates.
 
