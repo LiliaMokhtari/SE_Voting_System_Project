@@ -11,7 +11,12 @@ Each team member created a personal page, which will be integrated into a centra
 | Name | Role | Email | 
 |------|------|--------|
 | **Lilia Mokhtari** | Front-End Developer | lilia.mokhtari@enisa.edu.dz |
-| [Add other team members here] |  |  |
+| **Mourad Dellali** | Front-End Developer | mourad.dellali@ensia.edu.dz |
+| **Anis Si Salem**  | Front-End Developer | anis.sisalem@ensia.edu.dz   |
+| **Meriem Kali**    | Front-End Developer | meriem.kali@ensia.edu.dz    |
+| **Sarra Hadbi**    | Front-End Developer | sarra.hadbi@ensia.edu.dz    |
+
+
 
 
 ---
