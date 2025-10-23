@@ -23,7 +23,7 @@ Each team member created a personal page, which will be integrated into a centra
 
 ## 🌐 Deployed Website
 
-🔗 **[View Live Website on GitHub Pages](https://LiliaMokhtari.github.io/portfolio/)**
+🔗 **[View Live Website on GitHub Pages](https://liliamokhtari.github.io/SE_Voting_System_Project/)**
 
 ---
 
