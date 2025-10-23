@@ -1,7 +1,7 @@
 
 # Team Portfolio Project
 
-This repository contains the individual portfolio page developed by **Lilia Mokhtari** as part of a collaborative web development project.  
+This repository contains the individual portfolio pages developed by SE_G4_Team2 as part of a collaborative web development project.  
 Each team member created a personal page, which will be integrated into a central main page.
 
 ---
